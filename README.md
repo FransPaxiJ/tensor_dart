@@ -44,13 +44,8 @@ flutter create .
 ```bash
 flutter pub get
 ```
-5. Run the app
 
-```bash
-flutter run
-```
-
-6. Change build.gradle file in android/app/build.gradle
+5. Change build.gradle file in android/app/build.gradle
 
 ```bash
 android {
@@ -79,6 +74,11 @@ android {
     }
   }
 }
+```
+6. Run the app
+
+```bash
+flutter run
 ```
 
 ## Other Useful Commands
