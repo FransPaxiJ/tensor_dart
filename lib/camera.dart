@@ -55,7 +55,7 @@ class _CameraState extends State<Camera> {
                 numResults: 2,
               ).then((recognitions) {
                 int endTime = new DateTime.now().millisecondsSinceEpoch;
-                print("Detection took ${endTime - startTime}");
+                //print("Detection took paxi ${endTime - startTime}");
 
                 widget.setRecognitions(recognitions, img.height, img.width);
 
@@ -94,7 +94,8 @@ class _CameraState extends State<Camera> {
                 print("Detection took ${endTime - startTime}");
 
                 widget.setRecognitions(recognitions, img.height, img.width);
-
+                print(
+                    'Recognitions: $recognitions, Height: ${img.height}, Width: ${img.width}');
                 isDetecting = false;
               });
             }

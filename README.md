@@ -209,3 +209,24 @@ flutter pub add http
 flutter run --debug
 ```
 
+7. result of the app
+```json
+[
+  {
+    rect: 
+    {
+      w: 0.9867204427719116, 
+      x: 0.0, 
+      h: 0.8492453098297119, 
+      y: 0.02728348970413208
+    }, 
+    confidenceInClass: 0.63828125, 
+    detectedClass: mouse
+  }, 
+  (etc.)
+],
+Height: 720,
+Width: 1280
+```
+
+
